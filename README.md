@@ -8,10 +8,15 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 # Features
 Initialization: Sets an initial supply of tokens upon contract deployment.
+
 # Error Handling:
 require(): Validates user inputs.
+
 assert(): Ensures internal consistency and detects critical bugs.
+
 revert(): Halts execution with custom error messages for invalid operations.
+
 # State Management:
 setTotalSupply(): Safely increases the total supply of tokens.
+
 reduceSupply(): Reduces the total supply with proper validation.
